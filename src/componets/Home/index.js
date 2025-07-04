@@ -14,8 +14,8 @@ const Home = () => {
             At Vinayaga Construction, we turn your dream structures into lasting reality.
           </p>
           <div className="home-buttons">
-            <Link to  = "/project" className = "Link"> <p  className="btn primary">Explore Projects</p></Link>
-            <Link to  = "/contact"  className = "Link">  <p href="#contact" className="btn outline">Contact Us</p></Link>
+            <Link to  = "/project" className = "Link"> <a className="btn primary">Explore Projects</a></Link>
+            <Link to  = "/contact"  className = "Link">  <a href="#contact" className="btn outline">Contact Us</a></Link>
           </div>
         </div>
       </div>
