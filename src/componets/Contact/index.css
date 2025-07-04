@@ -1,0 +1,98 @@
+.contact-section {
+  padding: 80px 20px;
+  background: #f9fafb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.contact-info h2 {
+  font-size: 30px;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.info-block h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #2f80ed;
+}
+
+.info-block p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form {
+  background: #fff;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.contact-form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2f80ed;
+  outline: none;
+}
+
+.contact-form button {
+  background: #2f80ed;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #1e5ed2;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,99 @@
+.home { 
+    height: 100vh;
+  background: url('https://miro.medium.com/v2/resize:fit:1000/1*61w118UleZZfq2sbtXC8SQ.jpeg') center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 700px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.btn.primary {
+  background: #00c9ff;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #00afd4;
+}
+
+.btn.outline {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+}
+
+.btn.outline:hover {
+  background: white;
+  color: #000;
+}
+
+/* Entrance Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) { 
+   
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-subtitle {
+    font-size: 1rem;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+} 
+.Link{ 
+    margin-top: 15px;
+    text-decoration: none;
+}
