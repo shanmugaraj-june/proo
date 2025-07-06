@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap");
 
 .footer-section {
   background: #0f172a;
   color: #e2e8f0;
   padding: 60px 20px 30px;
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
 }
 
 .footer-content {
@@ -24,12 +24,11 @@
   color: #fff;
   font-size: 24px;
   width: fit-content;
-  font-weight: bold; 
-  height: 750x; 
-  width: 70px; 
+  font-weight: bold;
+  height: 750x;
+  width: 70px;
   border-radius: 50px;
-} 
-
+}
 
 .footer-title {
   font-size: 20px;
