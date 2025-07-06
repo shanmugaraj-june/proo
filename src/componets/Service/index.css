@@ -31,7 +31,7 @@
   background: #fff;
   border-radius: 16px;
   padding: 30px 25px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
   text-align: left;
   transition: transform 0.3s, box-shadow 0.3s;
   opacity: 0;
@@ -41,7 +41,7 @@
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
 }
 
 .icon-box {
