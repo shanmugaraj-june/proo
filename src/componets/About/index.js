@@ -1,10 +1,8 @@
-import Header from "../Header" 
-import { motion } from 'framer-motion';
-import "./index.css"
+import { motion } from "framer-motion";
+import "./index.css";
 const About = () => (
-    <>
-      <Header />  
-      <section className="about" id="about">
+  <>
+    <section className="about" id="about">
       <div className="about-content">
         {/* Left side: Text */}
         <div className="about-text">
@@ -23,17 +21,18 @@ const About = () => (
             transition={{ delay: 0.2, duration: 0.8 }}
             viewport={{ once: true }}
           >
-            We are a leading construction company with over a decade of experience building
-            commercial, residential, and infrastructure projects. Our goal is to bring quality,
-            safety, and innovation to every build.
+            We are a leading construction company with over a decade of
+            experience building commercial, residential, and infrastructure
+            projects. Our goal is to bring quality, safety, and innovation to
+            every build.
           </motion.p>
 
           <div className="about-grid">
             {[
-              { title: '7+ Years', text: 'Industry Experience' },
-              { title: '50+ Projects', text: 'Completed Successfully' },
-              { title: '100+ Experts', text: 'Skilled Professionals' },
-              { title: '24/7', text: 'Support & Service' }
+              { title: "7+ Years", text: "Industry Experience" },
+              { title: "50+ Projects", text: "Completed Successfully" },
+              { title: "100+ Experts", text: "Skilled Professionals" },
+              { title: "24/7", text: "Support & Service" },
             ].map((item, i) => (
               <motion.div
                 className="about-box"
@@ -66,8 +65,7 @@ const About = () => (
         </motion.div>
       </div>
     </section>
-   
-    </>
-) 
+  </>
+);
 
-export default About 
+export default About;
